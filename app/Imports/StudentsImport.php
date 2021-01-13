@@ -15,7 +15,8 @@ public function collection(Collection $rows)
     {
         foreach ($rows as $row) {
             $user = User::updateOrCreate(
-                ['username' => $row['nim'], 'password' => $row['nim']]
+                ['username' => $row['nim']],
+                ['password' => $row['nim']]
             );
 
             $user->roles()->sync(Role::whereRoleName('mahasiswa')->first()->id);
