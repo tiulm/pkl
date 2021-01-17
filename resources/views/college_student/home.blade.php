@@ -820,14 +820,11 @@
                             <input type="hidden" id="project_id">
                             <input type="hidden" id="_method" value="PUT" name="_method">
                             <div class="row">
+                                <p>*Semua file diupload dengan file ekstensi pdf dan ukuran max 1MB.</p>
                                 <div class="form-group col-6">
                                     <label for="bimbinganPK">Lembar Bimbingan PK</label>
                                     <input type="file" class="form-control-file" name="bimbinganPK" id="bimbinganPK" required>
                                 </div>
-                                <!-- <div class="form-group col-6">
-                                    <label for="kak">Kerangka Acuan Kerja</label>
-                                    <input type="file" class="form-control-file" name="kak" id="kak">
-                                </div> -->
                                 <div class="form-group col-6">
                                     <label for="setuju">Lembar Persetujuan Seminar PKL dan PK</label>
                                     <input type="file" class="form-control-file" name="setuju" id="setuju" required>
